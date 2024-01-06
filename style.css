@@ -120,10 +120,254 @@ header{
     width: 50%;
     margin-top: 33px;
     padding-left: 600px;
+
+}
+main{
+    height: fit-content;
+    margin-top: 60px;
+
+}
+main .about{
+    margin: 0 120px;
+    text-align: center;
+    background-color: #FFF8F3;
+    height: 500px;
+}
+
+main .about .about_text {
+    padding: 60px 0;
+}
+
+main .about .about_text h2{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 30px;
+} 
+
+main .about .about_text p{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.about .about_information{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about .about_information .about_box h6{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about .about_information .about_box p{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+main .skill_area{
+    display: block;
+    margin: 100px 120px 0 120px;
+}
+
+main .skill_area .skill_head{
+    text-align: center;   
+}
+
+main .skill_area .skill_head h1{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+main .skill_area .skill_head p{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+.skill_area .skill_info{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill_area .skill_info .skills{
+    width: 267px;
+    height: 300px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 20px;
+}
+
+.skill_area .skill_info .skills h4{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.skill_area .skill_info .skills p{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume{
+    margin-top: 100px;
+}
+
+.resume>h1{
+    text-align: center;
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.resume .info{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 130px;
+}
+
+.resume .info .education>h1,.resume .info .experience>h1{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.education .education_info h1,.experience .experience_info h1{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.education .education_info h2,.experience .experience_info h2{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.education .education_info h2,.experience .experience_info p{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume .resume_btn{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer{
+    height: 800px;
+    width: 100%;
+    background-color: #FFF8F3;
+}
+
+.footer_area{
+    margin: 0 130px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer_area .footer_text{
+    width: 50%;
+}
+
+.footer_area .footer_text h1{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.footer_area .footer_text p{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 
+.footer_area .foorter_form{
+    width: 50%;
+}
 
+.footer_area .foorter_form h1{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.footer_area .foorter_form input,textarea{
+    padding: 25px 150px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
 
 
 
